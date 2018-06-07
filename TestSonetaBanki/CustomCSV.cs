@@ -74,7 +74,7 @@ namespace TestSonetaBanki
 
             var reportItem = new ReportItem //tworzenie obiektu raportu
             {
-                BookingDate = PrivateData.GetDataKsiegowania(),
+                BookingDate = PrivateData.GetBookingDate(),
                 AmountDec = PrivateData.GetAmount(),
                 CurrencySymbol = PrivateData.GetAmountSymbol(),
                 FldCustomer = PrivateData.GetCustomer(),
